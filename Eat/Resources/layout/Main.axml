@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#ffffffff">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout1">
+        <ImageView
+            android:src="@mipmap/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView1"
+            android:scaleType="centerCrop" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout1"
+            android:background="#95000000" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_centerInParent="true">
+            <TextView
+                android:text="Smart CookBook"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:text="Make Food "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:gravity="center" />
+            <Button
+                android:text="Enter"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:id="@+id/btnEnter"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/btnaccount"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
